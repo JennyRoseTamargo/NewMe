@@ -17,7 +17,7 @@ namespace ARMS.Security
 		{
             if (Session["gUserType"] != null)
 			{
-                if (Session["gUserType"].ToString() == "1") // Admin
+                if (Session["gUserType"].ToString() == "1") // Admin Test 
                 {
                     Response.Redirect("../Resource/Resource.aspx");
                 }
